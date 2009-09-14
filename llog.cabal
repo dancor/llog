@@ -3,9 +3,9 @@ version:        0.1
 license:        GPL
 license-file:   LICENSE
 author:         dan corson <danl@alum.mit.edu>
-synopsis:       <syn>
+synopsis:       life/line-logger: simple logging of things you do or anything
 build-type:     Simple
-build-depends:  base, haskell98
+build-depends:  base, directory, filepath, haskell98, time
 
 executable:     llog
 main-is:        Main.hs
